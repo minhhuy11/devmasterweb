@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bảng với các thuộc tính thường dùng</title>
+</head>
+<body>
+    <h1>Tạo bảng với các thuộc tính thường dùng</h1>
+    <hr>
+    <table width="90%" border="1px" align="center">
+        <!-- Vùng tiêu đề -->
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Họ Tên</th>
+                <th>Ngày sinh</th>
+                <th>Điểm toán</th>
+                <th>Điểm văn</th>
+            </tr>
+        </thead>
+        <!-- Vùng nội dung -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Minh Huy</td>
+                <td>11/11/2002</td>
+                <td>10</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minh</td>
+                <td>11/11/2003</td>
+                <td>9</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hằng</td>
+                <td>24/10/2001</td>
+                <td>8</td>
+                <td>9.5</td>
+            </tr>
+        </tbody>
+        <!-- Vùng thống kê cuối bảng -->
+        <tfoot>
+            <tr>
+                <th>Trung bình</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <hr>
+    <h1>Tạo bảng với các thuộc tính thông dụng</h1>
+    <hr>
+    <table width="90%" border="1px" align="center"
+     cellpadding="5" cellspacing="0">
+     <!-- thead    -->
+     <thead style="background-color: rgba(128, 128, 128, 0.559);">
+            <tr>
+                <th rowspan="2">STT</th>
+                <th rowspan="2">Họ Tên</th>
+                <th rowspan="2">Giới tính</th>
+                <th colspan="3">Điểm</th>
+            </tr>
+            <tr>
+                <th>Toán</th>
+                <th>Văn</th>
+                <th>Anh</th>
+           </tr>
+        </thead>
+        <!-- body -->
+        <tbody>
+            <tr align="center">
+                <td>1</td>
+                <td>Huy</td>
+                <td>Nam</td>
+                <td>10</td>
+                <td>9.5</td>
+                <td>8</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>Minh</td>
+                <td>Nam</td>
+                <td>9</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>Hằng</td>
+                <td>Nữ</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+            </tr>
+        </tbody>
+        <tfoot bgcolor="cyan">
+            <tr>
+                <th rowspan="2">Trung bình:</th>
+                <th rowspan="2">...</th>
+                <th rowspan="2">...</th>
+                <th colspan="3">...</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
