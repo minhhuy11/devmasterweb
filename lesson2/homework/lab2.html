@@ -230,8 +230,124 @@
     <hr>
     <!-- Bài tập 7 -->
     <h3>Bài tập 7</h3>
+    <h3><b>To Do List</h3></p>
+    <hr>
     
-        
+    <form action="" method="post" name="todoList" id="todoList">
+        <p>
+            <b>Item</b><br>
+            <input type="text" name="item" id="item">
+        </p>
+        <p>
+            <b>Description</b><br>
+            <textarea name="des" id="des" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <b>Priority</b><br>
+            <select name="pri" id="pri">
+                <option value="1">Low</option>
+                <option value="2">Medium</option>
+                <option value="3">High</option>
+            </select>
+        </p>
+        <p>
+            <b>Category</b><br>
+            <select name="cate" id="cate">
+                <option value="1">Personal</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </p>
+        <p>
+            <b>Due Date</b><br>
+            <input type="date" name="ngay" id="ngay"><br>
+        </p>
+        <p>
+            <b>Status</b><br>
+            <input type="checkbox" name="chk" id="chk">Done.
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <!-- Bài tập 8 -->
+    <h3>Bài tập 8</h3>
+    <form action="" method="post" name="google" id="google">
+    <h3 style="color: lightgrey; text-align: center;">
+        <img src="/img/googlelogo.png" alt="google" style="width: 150px;position: relative;; align-items: center;"><br>
+        Đăng nhập thể thêm tài khoản khác
+    </h3>
+    <div align="center">
+        <img src="/img/avtlogo.jpg" alt="image" style="width: 150px;position: relative;align-items: center;"><br>
+        <input type="email" name="dangnhap" id="tendangnhap" placeholder="Email"><br>
+        <input type="password" name="pass" id="pass" placeholder="Mật khẩu"><br>
+        <input type="submit" id="dangnhap" value="Đăng nhập" style="margin-top:6px; background-color:deepskyblue; width: 170px; border-radius: 4px;">
+        <br>
+        <a href="#"><small>Bạn cần trợ giúp?</small></a>
+    </div>
+    <div style="text-align: center;margin-top: 20px;">
+        <a href="#"><small>Tạo một tài khoản</small></a>
+    </div>
+    </form>
+    <hr>
+    <!-- Bài tập 9 -->
+    <h3>Bài tập 9</h3>
+    <div style="background-color:darkblue;color: white;">
+    <div align="center">
+        <img src="/img/fblogo.png" alt="facebook" style="width: 150px;margin-top: 5px;">
+        <hr color="red">
+    </div>
+    <div>
+        <p>Email hoặc điện thoại</p>
+        <input type="text" name="email" id="id"><br>
+        <input type="checkbox" name="duytridn" id="duytri"><small style="color: lightgrey;">Duy trì đăng nhập</small>
+    </div>
+    <div>
+        <p>Mật khẩu</p>
+        <input type="password" name="matkhau" id="matkhaufb"><br>
+        <a href="#" style="color: lightgrey;"><small>Quên mật khẩu?</small></a>
+    </div>
+    <input type="submit" value="Đăng nhập" style="margin-top: 5px;background-color: lightblue;">
+    </div>
+    <hr>
+    <!-- Bài tập 10 -->
+    <h3>Bài tập 10</h3>
+    <div>
+        <div align="center" style="background-color: midnightblue;">
+            <img src="/img/fblogo.png" alt="facebook" style="width: 150px;margin-top: 5px;">
+        </div>
+        <div> 
+            <p style="font-size:xx-large;"><b>Đăng ký</b></p>
+            <p>Luôn miễn phí.</p>
+        </div>
+        <div>
+            <form action="" method="post" name="dkyfb" id="dkyfb">
+                <input type="text" name="Ho" id="Ho" placeholder="Họ" style="border-radius: 5px;">
+                <input type="text" name="Ten" id="Ten" placeholder="Tên" style="border-radius: 5px; margin-top: 5px;">
+                <input type="email" type="tel" name="" id="tendn" placeholder="Số di động hoặc email" style="border-radius: 5px;margin-top: 5px;">
+                <input type="password" name="mk" id="mk" placeholder="Mật khẩu mới" style="border-radius: 5px;margin-top: 5px;">
+                <p>Ngày sinh</p>
+                <input type="date" name="" id=""><a href="#" style="margin:10px;"><small>Tại sao tôi cần cung cấp ngày sinh của mình?</small></a>
+                <br>
+                <input type="radio" name="gt" id="male">Nam
+                <input type="radio" name="gt" id="female">Nữ
+                <p style="color:dimgrey;">
+                    <small>
+                        Bằng cách nhấp vào Tạo tài khoản, bạn đồng ý với <a href="#">Điều khoản</a>
+                        của chúng tôi và rằng bạn đã đọc <a href="#">Chính sách dữ liệu</a> của chúng tôi,
+                        bao gồm <a href="#">Sử dụng cookie</a>. Bạn có thể nhận được thông báo qua SMS từ
+                        Facebook và có thể bỏ chọn bất kỳ lúc nào
+                    </small><br>
+                    <input type="submit" value="Tạo tài khoản" style="background-color:forestgreen; color:whitesmoke; font-size: larger;width: 150px;margin-top: 10px;border-radius: 5px;">
+                </p>
+            </form>
+            <p style="color: dimgrey;margin-top: 40px;">
+                <small>
+                    <a href="#">Tạo trang</a> dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.
+                </small>
+            </p>
+        </div>
+    </div>
+    
     
 
 </body>
